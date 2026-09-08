@@ -1,3 +1,0 @@
-namespace ReSharperPlugin.Swift.Language.Parser.Lexer.Tokens.Literals;
-
-public class SurroundedMultiLineStringLiteralContentToken() : MultiLineStringLiteralContentToken(SwiftTokens.MultiLineSurroundedStringLiteralContentId, SwiftTokens.MultiLineSurroundedStringLiteralContentIndex);
