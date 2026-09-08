@@ -10,14 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ExtendedNumerics.BigDecimal" Version="3003.0.0.346" />
+    <PackageReference Include="ExtendedNumerics.BigDecimal" Version="3003.2.0.161" />
     <PackageReference Include="IndexRange" Version="1.1.1" />
-    <PackageReference Include="JetBrains.Rider.SDK" Version="2026.1.0">
+    <PackageReference Include="JetBrains.Rider.SDK" Version="2026.2.0-eap08">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Update="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
-    <PackageReference Include="System.Collections.Immutable" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,9 +25,6 @@
 
   <ItemGroup>
     <Folder Include="Language\RegularExpressionHarness\Parser\" />
-    <Folder Include="Language\Swift\Parser\Parsing\Generics\ParameterClauses\" />
-    <Folder Include="Language\Swift\Parser\Tree\Expressions\PostfixExpressions\PrimaryExpressions\MacroExpansionExpressions\" />
-    <Folder Include="Language\Swift\Parser\Tree\NodeTypes\InternalNodeTypes\" />
     <Folder Include="Technology\Ranges\" />
   </ItemGroup>
 

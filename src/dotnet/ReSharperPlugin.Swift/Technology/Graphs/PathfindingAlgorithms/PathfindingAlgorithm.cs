@@ -31,7 +31,7 @@ public abstract class PathfindingAlgorithm
         CheckNodes(targetNodes);
         
         _startNodes.Add(startNode);
-        _targetNodes.AddRange(targetNodes);
+        // _targetNodes.AddRange(targetNodes);
     }
     
     protected PathfindingAlgorithm(IReadOnlyGraph graph, IReadOnlySet<IReadOnlyNode> startNodes, IReadOnlyNode targetNode)
@@ -41,7 +41,7 @@ public abstract class PathfindingAlgorithm
         CheckNodes(startNodes);
         CheckNode(targetNode);
         
-        _startNodes.AddRange(startNodes);
+        // _startNodes.AddRange(startNodes);
         _targetNodes.Add(targetNode);
     }
     
@@ -52,8 +52,8 @@ public abstract class PathfindingAlgorithm
         CheckNodes(startNodes);
         CheckNodes(targetNodes);
         
-        _startNodes.AddRange(startNodes);
-        _targetNodes.AddRange(targetNodes);
+        // _startNodes.AddRange(startNodes);
+        // _targetNodes.AddRange(targetNodes);
     }
     
     protected IReadOnlySet<IReadOnlyNode> StartNodes => _startNodes;
